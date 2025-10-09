@@ -7,6 +7,7 @@ module.exports = {
         primary: {
           black: "#0A0A0A",
           text: "#EEE5E0",
+          mainText: "#B8EF43",
           textHover: "#decdc3",
         },
       },
@@ -15,6 +16,7 @@ module.exports = {
       RedHat: ["Red Hat Display", "sans-serif"],
       ShadowsIntoLight: ["Shadows Into Light", "cursive"],
       AntonSC: ["Anton SC", "sans-serif"],
+      FigTree: ["FigTree", "sans-serif"],
     },
   },
   plugins: [],

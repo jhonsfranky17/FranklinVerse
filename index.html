@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Title -->
     <title>Franklin Johnson | Portfolio</title>
+
+    <!-- SEO Meta Tags -->
+    <meta
+      name="description"
+      content="Portfolio of Franklin Jetty Johnson — Full Stack Developer, AI Enthusiast, and Musician. Explore my works, skills, and contact details."
+    />
+    <meta
+      name="keywords"
+      content="Franklin Jetty Johnson, Full Stack Developer, Frontend Developer, Web Developer, Portfolio, AI Enthusiast, Musician, React, Node.js, JavaScript, HTML, CSS, Tailwind CSS, Projects, Contact"
+    />
+    <meta name="author" content="Franklin Jetty Johnson" />
+
+    <!-- Open Graph (for social media) -->
+    <meta property="og:title" content="Franklin Jetty Johnson | Portfolio" />
+    <meta
+      property="og:description"
+      content="Full Stack Developer passionate about building modern web apps and digital experiences."
+    />
+    <meta property="og:image" content="assets/photo.png" />
+    <meta property="og:url" content="https://your-portfolio-url.com" />
+    <meta property="og:type" content="website" />
     <!-- CSS -->
     <link rel="stylesheet" href="output.css" />
     <!-- Fav Icon -->
@@ -25,6 +46,11 @@
       href="https://fonts.googleapis.com/css2?family=Anton+SC&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
     <style>
       @keyframes fadeIn {
         from {
@@ -70,7 +96,7 @@
   <body>
     <!-- Wrapper -->
     <div
-      class="min-h-dvh w-full bg-primary-black text-primary-text font-RedHat flex flex-col 2xl:px-20 lg:px-10 px-5 items-center lg:gap-20 gap-10"
+      class="min-h-dvh w-full bg-primary-black text-primary-text font-FigTree flex flex-col 2xl:px-20 lg:px-10 px-5 items-center lg:gap-20 gap-10"
     >
       <!-- Landing Section -->
       <div class="flex flex-col items-center">
@@ -152,28 +178,28 @@
               class="w-full flex items-center justify-between py-2 text-sm font-semibold"
             >
               <div class="flex items-center gap-3">
-                <div class="w-20 h-10 rounded-r-full bg-primary-text"></div>
+                <div class="w-20 h-10 rounded-r-full bg-primary-mainText"></div>
                 <h3 class="">Franklin <br />Johnson</h3>
               </div>
               <!-- Nav Links -->
-              <div class="flex items-center gap-7">
+              <div class="flex items-center gap-14 font-medium">
                 <a
-                  class="cursor-pointer after:w-0 after:h-[2px] after:bg-primary-text after:block lg:after:m-auto after:duration-500 hover:after:w-0 lg:hover:after:w-full"
+                  class="cursor-pointer after:w-0 after:h-[2px] after:bg-primary-mainText after:block lg:after:m-auto after:duration-500 hover:after:w-0 lg:hover:after:w-full"
                   href="#skills"
                   >Skills</a
                 >
                 <a
-                  class="cursor-pointer after:w-0 after:h-[2px] after:bg-primary-text after:block lg:after:m-auto after:duration-500 hover:after:w-0 lg:hover:after:w-full"
+                  class="cursor-pointer after:w-0 after:h-[2px] after:bg-primary-mainText after:block lg:after:m-auto after:duration-500 hover:after:w-0 lg:hover:after:w-full"
                   href="#works"
                   >Works</a
                 >
                 <a
-                  class="cursor-pointer after:w-0 after:h-[2px] after:bg-primary-text after:block lg:after:m-auto after:duration-500 hover:after:w-0 lg:hover:after:w-full"
+                  class="cursor-pointer after:w-0 after:h-[2px] after:bg-primary-mainText after:block lg:after:m-auto after:duration-500 hover:after:w-0 lg:hover:after:w-full"
                   href="#experience"
                   >Experience</a
                 >
                 <a
-                  class="cursor-pointer after:w-0 after:h-[2px] after:bg-primary-text after:block lg:after:m-auto after:duration-500 hover:after:w-0 lg:hover:after:w-full"
+                  class="cursor-pointer after:w-0 after:h-[2px] after:bg-primary-mainText after:block lg:after:m-auto after:duration-500 hover:after:w-0 lg:hover:after:w-full"
                   href="#contact"
                   >Contact</a
                 >
@@ -214,9 +240,13 @@
         <div class="flex flex-col w-full">
           <h2 class="font-ShadowsIntoLight text-left">&lt;h1&gt;</h2>
           <h1
-            class="min-[1800px]:text-[13rem] 2xl:text-[10rem] xl:text-[9rem] lg:text-[7rem] text-[2.5rem] text-center font-AntonSC whitespace-nowrap"
+            class="min-[1800px]:text-[13rem] text-primary-text 2xl:text-[10rem] xl:text-[9rem] lg:text-[7rem] text-[2.5rem] text-center font-AntonSC whitespace-nowrap"
           >
-            FULL STACK DEVELOPER
+            FULL STACK
+            <span
+              class="transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)]"
+              >DEVELOPER</span
+            >
           </h1>
           <h2 class="font-ShadowsIntoLight text-right">&lt;/h1&gt;</h2>
         </div>
@@ -228,9 +258,9 @@
           <div class="flex flex-col gap-5">
             <h2 class="font-ShadowsIntoLight text-left">&lt;img</h2>
             <img
-              src="./assets/photo.png"
+              src="./assets/DP.jpg"
               alt=""
-              class="2xl:h-96 xl:h-80 lg:h-80 h-56 rounded-full object-cover"
+              class="2xl:h-96 xl:w-96 lg:h-80 h-56 rounded-full object-cover object-bottom"
             />
             <h2 class="font-ShadowsIntoLight text-right">/&gt;</h2>
           </div>
@@ -239,15 +269,19 @@
             class="flex flex-col justify-center 2xl:gap-[10px] lg:gap-[6px] gap-2 min-[1800px]:max-w-[65%] 2xl:max-w-[55%] xl:max-w-[60%] lg:max-w-[50%]"
           >
             <h2 class="font-ShadowsIntoLight text-left">&lt;p&gt;</h2>
-            <p id="intro" class="font-RedHat 2xl:text-base text-sm"></p>
+            <p id="intro" class="font-FigTree 2xl:text-base text-sm"></p>
             <h2 class="font-ShadowsIntoLight text-right">&lt;/p&gt;</h2>
             <!-- CTA -->
             <h2 class="font-ShadowsIntoLight text-left">&lt;button&gt;</h2>
-            <a href="mailto:franklinjettyjohnson6@gmail.com" class="w-full">
+            <a
+              href="https://www.linkedin.com/in/franklin-jetty-johnson-a02961170/"
+              class="w-full"
+              target="_blank"
+            >
               <button
-                class="2xl:py-5 py-3 bg-primary-text hover:bg-primary-textHover text-slate-900 font-extrabold rounded-lg w-full xl:text-base text-sm"
+                class="2xl:py-3 font-bold text-slate-900 xl:text-base bg-primary-mainText hover:bg-lime-300 px-5 py-[10px] w-full rounded-lg transition-all duration-300 ease-in-out shadow-lg hover:shadow-[0_8px_16px_-4px_rgba(184,239,67,0.4),_8px_8px_16px_-4px_rgba(184,239,67,0.4),_-8px_8px_16px_-4px_rgba(184,239,67,0.4)]"
               >
-                Send a message!
+                Connect
               </button>
             </a>
             <h2 class="font-ShadowsIntoLight text-right">&lt;/button&gt;</h2>
@@ -374,7 +408,7 @@
               </div>
               <div class="flex items-center justify-center">
                 <button
-                  class="border 2xl:px-14 xl:px-10 lg:px-7 px-10 py-2 py rounded-full"
+                  class="2xl:px-14 xl:px-10 lg:px-7 px-10 py-2 py font-semibold text-slate-900 xl:text-base bg-primary-mainText hover:bg-lime-300 w-full rounded-full transition-all duration-300 ease-in-out shadow-lg hover:shadow-[0_8px_16px_-4px_rgba(184,239,67,0.4),_8px_8px_16px_-4px_rgba(184,239,67,0.4),_-8px_8px_16px_-4px_rgba(184,239,67,0.4)]"
                 >
                   <a
                     href="https://alanisbeautyparlour.com/home"
@@ -415,7 +449,7 @@
               </div>
               <div class="flex items-center justify-center">
                 <button
-                  class="border 2xl:px-14 xl:px-10 lg:px-7 px-10 py-2 py rounded-full"
+                  class="2xl:px-14 xl:px-10 lg:px-7 px-10 py-2 py font-semibold text-slate-900 xl:text-base bg-primary-mainText hover:bg-lime-300 w-full rounded-full transition-all duration-300 ease-in-out shadow-lg hover:shadow-[0_8px_16px_-4px_rgba(184,239,67,0.4),_8px_8px_16px_-4px_rgba(184,239,67,0.4),_-8px_8px_16px_-4px_rgba(184,239,67,0.4)]"
                 >
                   <a
                     href="https://heavenly-bites.vercel.app/"
@@ -453,7 +487,7 @@
               </div>
               <div class="flex items-center justify-center">
                 <button
-                  class="border 2xl:px-14 xl:px-10 lg:px-7 px-10 py-2 py rounded-full"
+                  class="2xl:px-14 xl:px-10 lg:px-7 px-10 py-2 py font-semibold text-slate-900 xl:text-base bg-primary-mainText hover:bg-lime-300 w-full rounded-full transition-all duration-300 ease-in-out shadow-lg hover:shadow-[0_8px_16px_-4px_rgba(184,239,67,0.4),_8px_8px_16px_-4px_rgba(184,239,67,0.4),_-8px_8px_16px_-4px_rgba(184,239,67,0.4)]"
                 >
                   <a
                     href="https://jhonsfranky17.github.io/infiniti/"
@@ -489,7 +523,7 @@
               </div>
               <div class="flex items-center justify-center">
                 <button
-                  class="border 2xl:px-14 xl:px-10 lg:px-7 px-10 py-2 py rounded-full"
+                  class="2xl:px-14 xl:px-10 lg:px-7 px-10 py-2 py font-semibold text-slate-900 xl:text-base bg-primary-mainText hover:bg-lime-300 w-full rounded-full transition-all duration-300 ease-in-out shadow-lg hover:shadow-[0_8px_16px_-4px_rgba(184,239,67,0.4),_8px_8px_16px_-4px_rgba(184,239,67,0.4),_-8px_8px_16px_-4px_rgba(184,239,67,0.4)]"
                 >
                   <a
                     href="https://rps-react-ashen.vercel.app/"
@@ -557,7 +591,7 @@
               download="Franklin-Jetty-Johnson_Resume.pdf"
             >
               <button
-                class="py-3 bg-primary-text hover:bg-primary-textHover text-slate-900 font-extrabold rounded-lg w-full xl:text-base text-sm"
+                class="2xl:py-3 font-bold text-slate-900 xl:text-base bg-primary-mainText hover:bg-lime-300 px-5 py-[10px] w-full rounded-lg transition-all duration-300 ease-in-out shadow-lg hover:shadow-[0_8px_16px_-4px_rgba(184,239,67,0.4),_8px_8px_16px_-4px_rgba(184,239,67,0.4),_-8px_8px_16px_-4px_rgba(184,239,67,0.4)]"
               >
                 Resume
               </button>
