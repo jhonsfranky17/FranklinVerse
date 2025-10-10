@@ -3,7 +3,10 @@ const logos = [
     path: "./assets/logos/icons8-react-native.svg",
     name: "React",
   },
-
+  {
+    path: "./assets/logos/icons8-typescript.svg",
+    name: "TypeScript",
+  },
   {
     path: "./assets/logos/icons8-node-js.svg",
     name: "Node.js",
@@ -15,6 +18,10 @@ const logos = [
   {
     path: "./assets/logos/icons8-java.svg",
     name: "Java",
+  },
+  {
+    path: "./assets/logos/icons8-python.svg",
+    name: "Python",
   },
   {
     path: "./assets/logos/icons8-mysql.svg",

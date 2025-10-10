@@ -510,6 +510,9 @@ video {
 .relative {
   position: relative;
 }
+.sticky {
+  position: sticky;
+}
 .inset-0 {
   inset: 0px;
 }
@@ -576,6 +579,15 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.w-14 {
+  width: 3.5rem;
+}
+.w-10 {
+  width: 2.5rem;
+}
+.w-12 {
+  width: 3rem;
 }
 .translate-x-0 {
   --tw-translate-x: 0px;
@@ -669,6 +681,10 @@ video {
 .bg-primary-textHover {
   --tw-bg-opacity: 1;
   background-color: rgb(222 205 195 / var(--tw-bg-opacity));
+}
+.bg-red-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 .object-cover {
   -o-object-fit: cover;
