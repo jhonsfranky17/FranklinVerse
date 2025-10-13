@@ -113,7 +113,7 @@
               class="group relative inline-block w-[44px] h-[45px]"
             >
               <span
-                class="relative w-[30px] h-[6px] bg-primary-text block after:absolute after:content-[''] after:mt-[12px] after:w-[30px] after:h-[6px] after:bg-primary-text after:block after:left-[0] before:absolute before:content-[''] before:-mt-[12px] before:w-[30px] before:h-[6px] before:bg-primary-text before:block before:left-[0]"
+                class="relative w-[30px] h-[6px] bg-primary-mainText block after:absolute after:content-[''] after:mt-[12px] after:w-[30px] after:h-[6px] after:bg-primary-mainText after:block after:left-[0] before:absolute before:content-[''] before:-mt-[12px] before:w-[30px] before:h-[6px] before:bg-primary-mainText before:block before:left-[0]"
               ></span>
             </button>
           </div>
@@ -122,7 +122,7 @@
         <!-- Menu Items -->
         <div
           id="menu-items"
-          class="lg:hidden p-5 fixed top-0 right-0 h-dvh w-3/4 bg-primary-textHover transform translate-x-full duration-300 ease-in-out gap-10"
+          class="lg:hidden p-5 fixed top-0 right-0 h-dvh w-3/4 bg-primary-mainText transform translate-x-full duration-300 ease-in-out gap-10"
         >
           <button id="close-menu" class="w-full">
             <img src="./assets/icons8-right-arrow-48.png" alt="close-menu" />
@@ -138,7 +138,10 @@
               >Experience</a
             >
             <a class="cursor-pointer text-black font-bold" href="#contact"
-              >Contact</a
+              >Resume</a
+            >
+            <a class="cursor-pointer text-black font-bold" href="#harmony"
+              >Harmony</a
             >
             <div
               class="w-full flex justify-center items-center bg-primary-black py-2"
@@ -201,7 +204,7 @@
                 <a
                   class="cursor-pointer after:w-0 after:h-[2px] after:bg-primary-mainText after:block lg:after:m-auto after:duration-500 hover:after:w-0 lg:hover:after:w-full"
                   href="#contact"
-                  >Contact</a
+                  >Resume</a
                 >
                 <a
                   class="cursor-pointer after:w-0 after:h-[2px] after:bg-primary-mainText after:block lg:after:m-auto after:duration-500 hover:after:w-0 lg:hover:after:w-full"
@@ -245,9 +248,15 @@
         <div class="flex flex-col w-full">
           <h2 class="font-ShadowsIntoLight text-left">&lt;h1&gt;</h2>
           <h1
-            class="min-[1800px]:text-[13rem] text-primary-text 2xl:text-[10rem] xl:text-[9rem] lg:text-[7rem] text-[2.5rem] text-center font-AntonSC whitespace-nowrap transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)]"
+            class="min-[1800px]:text-[13rem] text-primary-text 2xl:text-[10rem] xl:text-[9rem] lg:text-[7rem] text-[2.5rem] text-center font-AntonSC whitespace-nowrap transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)] md:block hidden"
           >
             < FULL STACK DEVELOPER />
+          </h1>
+          <h1
+            class="text-primary-text text-6xl text-center leading-snug font-AntonSC whitespace-nowrap transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)] md:hidden block"
+          >
+            FULL STACK <br />
+            DEVELOPER
           </h1>
           <h2 class="font-ShadowsIntoLight text-right">&lt;/h1&gt;</h2>
         </div>
@@ -261,7 +270,7 @@
             <img
               src="./assets/DP.jpg"
               alt=""
-              class="2xl:h-96 xl:w-96 lg:h-80 h-56 rounded-full object-contain bg-primary-mainText"
+              class="2xl:h-96 xl:w-96 lg:h-80 w-72 h-72 rounded-full object-contain bg-primary-mainText"
             />
             <h2 class="font-ShadowsIntoLight text-right">/&gt;</h2>
           </div>
@@ -281,7 +290,7 @@
               target="_blank"
             >
               <button
-                class="2xl:py-3 font-bold text-slate-900 xl:text-base bg-primary-mainText hover:bg-lime-300 px-5 py-[10px] w-full rounded-lg transition-all duration-300 ease-in-out shadow-lg hover:shadow-[0_8px_16px_-4px_rgba(184,239,67,0.4),_8px_8px_16px_-4px_rgba(184,239,67,0.4),_-8px_8px_16px_-4px_rgba(184,239,67,0.4)]"
+                class="2xl:py-3 py-2 px-5 font-bold text-slate-900 xl:text-base bg-primary-mainText hover:bg-lime-300 w-full rounded-lg transition-all duration-300 ease-in-out shadow-lg hover:shadow-[0_8px_16px_-4px_rgba(184,239,67,0.4),_8px_8px_16px_-4px_rgba(184,239,67,0.4),_-8px_8px_16px_-4px_rgba(184,239,67,0.4)]"
               >
                 Let's Connect
               </button>
@@ -306,7 +315,7 @@
         <div id="skills" class="flex flex-col w-1/2">
           <h2 class="font-ShadowsIntoLight text-left">&lt;h2&gt;</h2>
           <h2
-            class="font-AntonSC lg:text-9xl text-5xl text-center transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)]"
+            class="font-AntonSC lg:text-9xl text-6xl text-center transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)]"
           >
             skills
           </h2>
@@ -374,7 +383,7 @@
           <div id="works" class="flex flex-col w-1/2">
             <h2 class="font-ShadowsIntoLight text-left">&lt;h2&gt;</h2>
             <h2
-              class="font-AntonSC lg:text-9xl text-5xl text-center transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)]"
+              class="font-AntonSC lg:text-9xl text-6xl text-center transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)]"
             >
               works
             </h2>
@@ -565,7 +574,7 @@
         <div id="experience" class="flex flex-col w-1/2">
           <h2 class="font-ShadowsIntoLight text-left">&lt;h2&gt;</h2>
           <h2
-            class="font-AntonSC lg:text-9xl text-5xl text-center transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)]"
+            class="font-AntonSC lg:text-9xl text-6xl text-center transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)]"
           >
             experience
           </h2>
@@ -596,7 +605,7 @@
           <div id="contact" class="flex flex-col w-1/2">
             <h2 class="font-ShadowsIntoLight text-left">&lt;h2&gt;</h2>
             <h2
-              class="font-AntonSC lg:text-9xl text-5xl text-center transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)]"
+              class="font-AntonSC lg:text-9xl text-6xl text-center transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)]"
             >
               resume
             </h2>
@@ -611,7 +620,7 @@
               download="Franklin-Jetty-Johnson_Resume.pdf"
             >
               <button
-                class="2xl:py-3 font-bold text-slate-900 xl:text-base bg-primary-mainText hover:bg-lime-300 px-5 py-[10px] w-full rounded-lg transition-all duration-300 ease-in-out shadow-lg hover:shadow-[0_8px_16px_-4px_rgba(184,239,67,0.4),_8px_8px_16px_-4px_rgba(184,239,67,0.4),_-8px_8px_16px_-4px_rgba(184,239,67,0.4)]"
+                class="2xl:py-3 px-5 py-2 font-bold text-slate-900 xl:text-base bg-primary-mainText hover:bg-lime-300 w-full rounded-lg transition-all duration-300 ease-in-out shadow-lg hover:shadow-[0_8px_16px_-4px_rgba(184,239,67,0.4),_8px_8px_16px_-4px_rgba(184,239,67,0.4),_-8px_8px_16px_-4px_rgba(184,239,67,0.4)]"
               >
                 Download
               </button>
@@ -625,7 +634,7 @@
           <div id="harmony" class="flex flex-col w-1/2">
             <h2 class="font-ShadowsIntoLight text-left">&lt;h2&gt;</h2>
             <h2
-              class="font-AntonSC lg:text-9xl text-5xl text-center transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)]"
+              class="font-AntonSC lg:text-9xl text-6xl text-center transition-all duration-300 ease-in-out hover:text-lime-300 hover:drop-shadow-[0_4px_8px_rgba(184,239,67,0.6)]"
             >
               harmony
             </h2>
